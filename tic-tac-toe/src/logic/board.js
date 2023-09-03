@@ -14,3 +14,11 @@ export const checkWinner = (boardToCheck) => {
     }
     return null
 }
+
+export const checkEndGame = (newboard) => {
+    // Review if not draw
+    // if not space empty in the table
+
+    // NOTE : declare "square" in less like a type of iterator of board
+    return newboard.every((square) => square != null)
+  }
